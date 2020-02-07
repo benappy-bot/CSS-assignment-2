@@ -70,7 +70,7 @@ article {
 }
 
 #cougar a:hover {
-    color: #379CB2;
+    color: #333;
     text-decoration: underline;
 }
 
@@ -88,7 +88,7 @@ article {
 }
 
 #lion a:hover {
-    color: #82E8FF;
+    color: #333;
     text-decoration: underline;
 }
 
@@ -106,7 +106,7 @@ article {
 }
 
 #tiger a:hover {
-    color: #82E8FF;
+    color: #333;
     text-decoration: underline;
 }
 
