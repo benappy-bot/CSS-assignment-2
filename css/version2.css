@@ -3,7 +3,7 @@
 
 /* you may add to or change the body rule */
 html {
-box-sizing: border-box;
+box-sizing: content-box;
 }
 
 * {box-sizing: inherit;
@@ -12,17 +12,17 @@ box-sizing: border-box;
 body {
     font-family: sans-serif;
     color: #fff;
-
-    margin: 0
+    margin: 0;
 }
 img {
     max-width: 100%; /* DO NOT delete or change this line */
-    margin: 0
+    margin: 1rem 0;
 }
 
 .photo p {
-  padding: 1em 0;
+  padding: 0;
   margin: 0;
+
 }
 
 header {
@@ -50,10 +50,11 @@ nav ul li {
 
 article {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
     padding: 3rem;
-    margin: 0
+    margin: auto
 }
 
 #cougar {
@@ -70,7 +71,7 @@ article {
 }
 
 #cougar a:hover {
-    color: #379CB2;
+    color: #333;
     text-decoration: underline;
 }
 
@@ -88,7 +89,7 @@ article {
 }
 
 #lion a:hover {
-    color: #82E8FF;
+    color: #666;
     text-decoration: underline;
 }
 
@@ -106,7 +107,7 @@ article {
 }
 
 #tiger a:hover {
-    color: #82E8FF;
+    color: #666;
     text-decoration: underline;
 }
 
@@ -115,15 +116,14 @@ section {
 }
 
 .text {
-  background: #fff;
   color: #000;
   padding: 1rem 3rem;
   line-height: 1.75rem;
   font-size: 1.25rem;
+  margin: 0;
 }
-
 .text h2 {
-  text-align: center;
+  margin: 0;
 }
 
 footer {
