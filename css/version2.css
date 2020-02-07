@@ -3,7 +3,6 @@
 
 /* you may add to or change the body rule */
 html {
-box-sizing: content-box;
 }
 
 * {box-sizing: inherit;
